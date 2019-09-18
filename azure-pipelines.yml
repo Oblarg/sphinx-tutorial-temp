@@ -21,3 +21,9 @@ steps:
 
 - script: make html
   displayName: "Make"
+
+- task: PublishBuildArtifacts@1
+  displayName: "Publish HTML"
+  inputs:
+    pathToPublish: './build'
+    artifactName: 'html'
