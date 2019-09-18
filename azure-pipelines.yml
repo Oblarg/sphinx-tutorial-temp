@@ -10,5 +10,4 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- script: python hello-world.py
-  displayName: 'Run hello world'
+- script: make html
