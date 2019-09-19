@@ -9,7 +9,32 @@ Project Structure Guidelines
 Filenames
 ^^^^^^^^^
 
-Use only lowercase alphanumeric characters and ``-`` (minus) symbol.
+Use only lowercase alphanumeric characters and the ``-`` (minus) symbol.
+
+Example *legal* filenames:
+
+* ``getting-started.rst``
+* ``image-12.png``
+
+Example *illegal* filenames:
+
+* ``GettingStarted.rst``
+* ``image_12.png``
+
+Getting Started Page
+^^^^^^^^^^^^^^^^^^^^
+
+All documentation should include a "getting started" or "orientation" page, separate from the primary index page (which will likely be quite lengthy).  This should be the first page listed in the table of contents, and should serve to orient the reader as to the overall purpose of the project and structure of the documentation.
+
+External Resources Page
+^^^^^^^^^^^^^^^^^^^^^^^
+
+All documentation should include an "external resources" page that links to any external documentation that is needed or helpful for understanding the project.
+
+Contacts Page
+^^^^^^^^^^^^^
+
+All documentation should include a "contacts" page that contains company contact info for those people currently responsible for maintaining the project.  This page *must* be kept up-to-date as project personnel change.
 
 RST Guidelines
 --------------
@@ -79,7 +104,12 @@ All code blocks should have their language specified for syntax highlighting.
 Content Guidelines
 ------------------
 
-Link to API Docs
-^^^^^^^^^^^^^^^^
+Links to API Docs
+^^^^^^^^^^^^^^^^^
 
-Documentation should link to source-generated API docs whenever possible.  Every *new* mention of a class should be accompanied by a link to the class in the API docs.  Repeated mentions do not necessarily require repeated links - use your better judgment as to whether or not it is a good idea.  Remember, good documentation maks it *easy to find what you're looking for*.
+Documentation should link to source-generated API docs whenever possible.  Every *new* mention of a class or method should be accompanied by a link to the class or method in the API docs.  Repeated mentions do not necessarily require repeated links - use your better judgment as to whether or not it is a good idea.  Remember, good documentation maks it *easy to find what you're looking for*.
+
+Links to Source Code
+^^^^^^^^^^^^^^^^^^^^
+
+Direct links to source code are less-crucial than links to API docs, as example code can be shown with code blocks, however they are still appropriate in certain places.
