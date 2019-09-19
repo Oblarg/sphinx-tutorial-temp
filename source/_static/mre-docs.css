@@ -1,39 +1,19 @@
-  .color-strip {
-  height:10px;
-  margin:0;
-  padding:0;
-  position:relative;
-  width:100%;
-  z-index:999;
-  }
-  
-  .color-strip .mrecyan {
-  background:#175788;
-  }
-  
-  .color-strip div {
-  display:block;
-  float:left;
-  height:100%;
-  width:100%;
-  }
-  
   .header-bar {
-  background:#5d6166;
+  background: #ffffff;;
   min-height:60px;
   }
   
   .wy-nav-content {
-  background:#fcfcfc;
+  background: #ffffff;;
   }
   
   .wy-nav-content-wrap
   {
-    background:#00b4dc
+  background:#ffffff;
   }
   
   .wy-nav-side,.wy-side-nav-search,.wy-nav-top {
-  background:#003974;
+  background:#00b4dc;
   }
   
   @media screen and (max-width: 768px) {
