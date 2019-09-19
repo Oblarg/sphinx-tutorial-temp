@@ -49,20 +49,23 @@ master_doc = "index"
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-#
 html_theme = 'sphinx_rtd_theme'
 
-html_logo = 'munichre.png'
-
+# Assorted options - feel free to change these, though sticky navigation is terrible
+# and should never be enabled
 html_theme_options = {
 	'collapse_navigation': True,
 	'sticky_navigation': False,
 	'titles_only': True
 }
 
+# The dog page logo (displayed in the top-left-hand corner)
+html_logo = 'munichre.png'
+
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+# Register custom stylesheet
 html_css_files = ['mre-docs.css',]
