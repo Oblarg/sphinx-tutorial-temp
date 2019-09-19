@@ -8,7 +8,7 @@
   }
   
   .color-strip .mrecyan {
-  background:#00b4dc;
+  background:#175788;
   }
   
   .color-strip div {
@@ -19,7 +19,7 @@
   }
   
   .header-bar {
-  background:#003974;
+  background:#5d6166;
   min-height:60px;
   }
   
@@ -29,7 +29,7 @@
   
   .wy-nav-content-wrap
   {
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#003974',endColorstr='#003974',GradientType=1);background:#003974;background:-moz-linear-gradient(left,#003974,#6cc2c9,#003974);background:-webkit-gradient(linear,left top,right top,color-stop(0%,#003974),color-stop(50%,#6cc2c9),color-stop(100%,#003974));background:-webkit-linear-gradient(left,#003974,#6cc2c9,#003974);background:-o-linear-gradient(left,#003974,#6cc2c9,#003974);background:-ms-linear-gradient(left,#003974,#6cc2c9,#003974);background:linear-gradient(to right,#003974,#6cc2c9,#003974)
+    background:#00b4dc
   }
   
   .wy-nav-side,.wy-side-nav-search,.wy-nav-top {
