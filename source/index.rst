@@ -1,8 +1,8 @@
-MRWolf Sphinx Project Documentation Template
-============================================
+MRWolf Sphinx Documentation How-To
+==================================
 
-Main Table of Contents
-======================
+Table of Contents
+=================
 
 .. toctree::
    :maxdepth: 2
@@ -10,4 +10,5 @@ Main Table of Contents
    
    docs/getting-started-with-sphinx.rst
    docs/styleguide.rst
+   docs/sphinx-hints.rst
 
