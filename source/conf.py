@@ -52,6 +52,8 @@ master_doc = "index"
 #
 html_theme = 'sphinx_rtd_theme'
 
+html_logo = 'munichre.png'
+
 html_theme_options = {
 	'collapse_navigation': True,
 	'sticky_navigation': False,
