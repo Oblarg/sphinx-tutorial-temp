@@ -1,0 +1,276 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Sphinx Hints &mdash; MRWolf Sphinx Template 0.0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+        <script type="text/javascript" src="../_static/sphinx_tabs/tabs.js"></script>
+        <script type="text/javascript" src="../_static/sphinx_tabs/semantic-ui-2.2.10/tab.min.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/sphinx_tabs/tabs.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/sphinx_tabs/semantic-ui-2.2.10/segment.min.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/sphinx_tabs/semantic-ui-2.2.10/menu.min.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/sphinx_tabs/semantic-ui-2.2.10/tab.min.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/mre-docs.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> MRWolf Sphinx Template
+          
+
+          
+            
+            <img src="../_static/munichre.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="getting-started-with-sphinx.html">Getting Started with Sphinx</a></li>
+<li class="toctree-l1"><a class="reference internal" href="styleguide.html">MRWolf Sphinx Styleguide</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">MRWolf Sphinx Template</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Sphinx Hints</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/docs/sphinx-hints.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="sphinx-hints">
+<h1>Sphinx Hints<a class="headerlink" href="#sphinx-hints" title="Permalink to this headline">¶</a></h1>
+<p>While the <a class="reference external" href="http://www.sphinx-doc.org/en/master/">official sphinx documentation</a> should be your go-to resource for “how should I do a certain thing in Sphinx,” this page offers a list of common features that MRWolf projects will likely need:</p>
+<div class="section" id="code-blocks">
+<h2>Code Blocks<a class="headerlink" href="#code-blocks" title="Permalink to this headline">¶</a></h2>
+<p>Code blocks are usually handled with the <code class="docutils literal notranslate"><span class="pre">code-block</span></code> directive:</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>.. code-block:: java
+
+  System.out.println(&quot;Hello World!&quot;);
+</pre></div>
+</div>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&quot;Hello World!&quot;</span><span class="o">);</span>
+</pre></div>
+</div>
+<p>Occasionally, it is convenient to sample code multiple code blocks from a single source file.  If the file is included in the project directory, then this can be done with the <a class="reference external" href="https://www.sphinx-doc.org/en/1.5/markup/code.html#Includes">literalinclude</a> directive.</p>
+<p>If the source file is not present in the project directory, but is hosted on the web, the <a class="reference external" href="https://pypi.org/project/sphinxcontrib-remoteliteralinclude/">remoteliteralinclude</a> extension can be used.</p>
+</div>
+<div class="section" id="tabs">
+<h2>Tabs<a class="headerlink" href="#tabs" title="Permalink to this headline">¶</a></h2>
+<p>Tabbed content can be included by using the <code class="docutils literal notranslate"><span class="pre">tabs</span></code> directive (the tabs extension for Sphinx is already included in the project template):</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>.. tabs::
+
+  .. tab:: Tab 1
+
+    Here&#39;s some tab content!
+
+  .. tab:: Tab 2
+
+    Here&#39;s some other tab content!
+</pre></div>
+</div>
+<div class="sphinx-tabs docutils container">
+<div class="ui top attached tabular menu sphinx-menu docutils container">
+<div class="active item sphinx-data-tab-0-0 docutils container">
+<div class="docutils container">
+<p>Tab 1</p>
+</div>
+</div>
+<div class="item sphinx-data-tab-0-1 docutils container">
+<div class="docutils container">
+<p>Tab 2</p>
+</div>
+</div>
+</div>
+<div class="ui bottom attached sphinx-tab tab segment sphinx-data-tab-0-0 active docutils container">
+<p>Here’s some tab content!</p>
+</div>
+<div class="ui bottom attached sphinx-tab tab segment sphinx-data-tab-0-1 docutils container">
+<p>Here’s some other tab content!</p>
+</div>
+</div>
+</div>
+<div class="section" id="admonitions">
+<h2>Admonitions<a class="headerlink" href="#admonitions" title="Permalink to this headline">¶</a></h2>
+<p>Admonitions (such as notes and warnings), and should be used often:</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>.. note:: This is a note!
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This is a note!</p>
+</div>
+<p>The following is a list of available admonitions:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">attention</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">caution</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">danger</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">error</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">hint</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">important</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">note</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">tip</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">warning</span></code></p></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Munich Re
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
