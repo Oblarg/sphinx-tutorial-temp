@@ -65,4 +65,4 @@ html_static_path = ['_static']
 
 html_css_files = ['mre-docs.css',]
 
-html_logo = "mrelogo.svg"
+html_logo = "mrelogo.jpg"
