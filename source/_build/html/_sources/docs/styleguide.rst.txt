@@ -68,3 +68,18 @@ Image files should be stored in the ``images`` subdirectory of whichever directo
 Image files should follow the naming scheme of ``document-title-1.png`` so on and so forth.
 
 Image files should be of the ``.png`` or ``.jpg`` image extension. ``.gif`` is unsupported by Sphinx.
+
+Code Blocks
+~~~~~~~~~~~
+
+Screenshots of code should *never* be used for code examples.  *Always* use a code block.
+
+All code blocks should have their language specified for syntax highlighting.
+
+Content Guidelines
+------------------
+
+Link to API Docs
+^^^^^^^^^^^^^^^^
+
+Documentation should link to source-generated API docs whenever possible.  Every *new* mention of a class should be accompanied by a link to the class in the API docs.  Repeated mentions do not necessarily require repeated links - use your better judgment as to whether or not it is a good idea.  Remember, good documentation maks it *easy to find what you're looking for*.

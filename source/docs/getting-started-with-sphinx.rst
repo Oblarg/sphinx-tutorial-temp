@@ -10,7 +10,7 @@ In order to use the Sphinx Documentation Template, it's first necessary to famil
 
 Thankfully, Sphinx has extensive documentation; accordingly, users should first skim the official sphinx docs, and keep it on hand as a reference while using the template:
 
-`http://www.sphinx-doc.org/en/master/`__
+http://www.sphinx-doc.org/en/master/
 
 The official Sphinx documentation will be referred to extensively throughout this guide.
 

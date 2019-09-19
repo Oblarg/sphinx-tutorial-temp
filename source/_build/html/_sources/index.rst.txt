@@ -8,5 +8,6 @@ Main Table of Contents
    :maxdepth: 2
    :caption: Contents:
    
-   docs/example-doc.rst
+   docs/getting-started-with-sphinx.rst
+   docs/styleguide.rst
 
