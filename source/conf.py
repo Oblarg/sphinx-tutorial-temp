@@ -17,8 +17,8 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'sphinx-demo'
-copyright = '2019, Eli Barnett'
+project = 'MRWolf Sphinx Template'
+copyright = '2019, Munich Re'
 author = 'Eli Barnett'
 
 # The full version, including alpha/beta/rc tags
